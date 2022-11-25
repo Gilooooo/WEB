@@ -1,0 +1,27 @@
+.container {
+    margin: 80px;
+    display: flex;
+    align-items: center;
+}
+.container h1 {
+    font-size: 100px;
+}
+.container h6 {
+    font-size: 10px;
+    margin-bottom: -2.5px;
+}
+.container h6,.container input {
+    margin-left: 40%;
+}
+.container button {
+    margin-top: 50px;
+    margin-left: 50%;
+}
+.LEFT {
+    width: 100%;
+    margin-left: 20px;
+}
+.RIGHT {
+    width: 100%;
+    margin-left: 20px;
+}
