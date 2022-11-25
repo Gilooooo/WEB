@@ -4,17 +4,32 @@
   gap: 50px;
   height: 843px;
   font-family: Literata;
-  background-image: linear-gradient( black, #454545);
+  background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-flex;
+  height: 100vh;
+  
+    
 }
 .container p {
+  max-width: 800px;
   margin:150px;
-  max-height: 647px ; 
-  max-width: 571px;
-  text-align: center;
-  font-size: 40px;
+  max-height: 747px ; 
+  overflow-wrap: break-word;
+  text-align:center;
+  font-size: 32px;
   color: white;
 }
 .image{
-  margin: 150px;
+  margin-top: 30px;
+  margin-right: 140px;
+  margin-bottom: 40px;
   
+}
+
+.image img {
+  width:35s0px;
+  height: 350px;
 }

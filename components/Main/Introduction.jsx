@@ -10,6 +10,12 @@ export default function OurMission() {
         on Figma  and ensuring ease of use and simplicity for your audience.
         </h5>
       </div>
+      <div className={styles.footer}>
+        <h5>*We provide new experience </h5>
+        <h5></h5>
+        <h5>*Always keep updated</h5>
+        <h5>WE LOVE TO WORK WITH YOU </h5>
+      </div>
       <div className={styles.image}>
         <h1>TEAMS</h1>
         <img src="Profilepic1.png" />
@@ -17,11 +23,7 @@ export default function OurMission() {
         <img src="Profilepic3.png" />
         <img src="Profilepic4.png" />
       </div>
-      <div className={styles.footer}>
-        <h5>*We provide new experience </h5>
-        <h5>*Always keep updated</h5>
-        <h5>WE LOVE TO WORK WITH YOU </h5>
-      </div>
+     
     </div>
   );
 }

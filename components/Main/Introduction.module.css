@@ -1,11 +1,18 @@
 .container  {
-  padding: 50px;
-  background-image: linear-gradient(#454545, red);
+  padding: 5px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  height: 900px;
+  height: 843px;
   gap: 10px;
   font-family: Literata;
+  background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+  background-repeat: repeat;
+  background-size: cover;
+  display: flex;
+  height: 110vh;
+}
+.Head{
+  align-items: top-right;
 }
 .content{
   margin: 150px;
@@ -13,32 +20,62 @@
 }
 .content h1 {
   font-size: 75px;
-  margin-left: 100px ;
+  margin-left: 10px ;
   color: #E95050 ;
 }
 .content h5{
   font-size: 32px;
   width: 437px;
-  margin-left: 100px ;
+  margin-left: 10px ;
+  color: white;
 }
 .content p {
   font-size: 48px;
+  color: white;
+  margin-left: 0px;
 }
-.image{
-  text-align: center;
-  margin-top: 40px;
+.image h1{
+  display: flex;
+  margin-left: 112px;
+  text-align: center; 
+  color: #B69999;
 }
-.image img{ 
-  margin: 10px;
-  margin-bottom: 0;
+.footer{
+  position: absolute;
+  margin-top: 540px;
+  margin-left: 165px;
+  font-size: 25px;
+  color: white;
+  white-space: nowrap;
 }
 
-.footer{
-  display: flex;
-  margin-left: 300px;
-  font-size: 30px;
-  color: black;
-  grid-row: 4;
-  grid-column: 1/ span 2;
-  gap: 100px;
+.footer h5 {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  margin-right: 45px;
+  word-spacing: 5px;
+  color: #E95050;
+ 
+}
+
+
+.image {
+  margin-top: 5%;
+  display: inline-block;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: nowrap;
+}
+.image img{
+  
+  width: 120x;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 13px;
+    box-shadow: 4px 4px 4px 4px black;
+    margin-top: 35px;
+    margin-right: 10px;
+    transition: 400ms;
+
 }
