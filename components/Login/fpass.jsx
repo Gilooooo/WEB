@@ -1,31 +1,40 @@
 import styles from "./fpass.module.css";
 
-export default function Fpass() {
 
+export default function Fpass() {
+    
     return(
+       
         <div className={styles.container}>
         <div className={styles.image}>
+        <a href="http://localhost:3000/WEB">
+        <button>
         <img src = "LOGO.png"></img>
+        </button>
+        </a>
         </div>
+        
         <div className={styles.pass}>
-        <h1></h1>
-        <h1></h1>
         <h2>EMAIL</h2>
-        <input type="email" placeholder="input email here"/>
+        <input type="email" />
         <button>CODE</button>
         <h2>CODE</h2>
-        <input type="CODE" placeholder="input code here"/>
+        <input type="CODE"/>
         <button>CODE</button>
         </div>
         <div className={styles.newpass}>
         <h2>NEW PASSWORD</h2>
-        <input type="new pass" placeholder="input new password here"/>
+        <input type="new pass"/>
         <h2>CONFIRM PASSWORD</h2>\
-        <input type="confirm pass" placeholder="input new password here"/>
+        <input type="confirm pass"/>
         <p></p>
         <button>CONFIRM</button>
+        </div>
         
+
         </div>
-        </div>
+       
+       
+
     );
 }

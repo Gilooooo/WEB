@@ -5,7 +5,11 @@ export default function LOGIN() {
         
         <div className={styles.container}>
         <div className={styles.image}>
+        <a href="http://localhost:3000/WEB">
+        <button>
         <img src = "LOGO.png"></img>
+        </button>
+        </a>
         </div>
         <div className={styles.credit}>
         <h1> </h1>
@@ -17,8 +21,10 @@ export default function LOGIN() {
         </div>
     
         <div className ={styles.TEXT}>
-        <button>CREATE ACCOUNT</button> 
+        <button>CREATE ACCOUNT</button>
+        <a href="http://localhost:3000/fpass"> 
         <button>FORGOT PASSWORD</button>
+        </a>
         </div>
         </div>
         

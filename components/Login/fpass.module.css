@@ -1,19 +1,41 @@
+
+
 .container {
-    color: rgb(10, 10, 10);
+    
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Literata';
     font-style: normal;
     font-size: small;
+    background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    height: 100vh;
+    
+    
+
 }
+
+
 .image{
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 1200px;
     transition: 400ms;
     align-items: left;
+   
     
 }
 
+
+.image button {
+    background-color:inherit;
+    border: none;
+    
+
+}
 .image:hover{
     transform: scale(1.50);
 }
@@ -79,6 +101,7 @@
     display: block;
     margin-left: 565px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .newpass button:hover {
