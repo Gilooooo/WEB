@@ -1,4 +1,4 @@
-import Fpass from "../components/fpass";
+import Fpass from "../components/Login/fpass";
 
 export default function fpass() {
     return (
