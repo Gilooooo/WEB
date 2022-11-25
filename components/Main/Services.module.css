@@ -1,0 +1,14 @@
+.container {
+  padding: 50px;
+  background-color: #532222;
+  height: 900px;
+}
+.message p{
+  font-size: 48px;
+}
+.message h2{
+   font-size: 64px;
+}
+.message h5{
+  font-size: 24px;
+}

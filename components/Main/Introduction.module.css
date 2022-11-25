@@ -1,0 +1,44 @@
+.container  {
+  padding: 50px;
+  background-image: linear-gradient(#454545, red);
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  height: 900px;
+  gap: 10px;
+  font-family: Literata;
+}
+.content{
+  margin: 150px;
+  margin-top: 30px;
+}
+.content h1 {
+  font-size: 75px;
+  margin-left: 100px ;
+  color: #E95050 ;
+}
+.content h5{
+  font-size: 32px;
+  width: 437px;
+  margin-left: 100px ;
+}
+.content p {
+  font-size: 48px;
+}
+.image{
+  text-align: center;
+  margin-top: 40px;
+}
+.image img{ 
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.footer{
+  display: flex;
+  margin-left: 300px;
+  font-size: 30px;
+  color: black;
+  grid-row: 4;
+  grid-column: 1/ span 2;
+  gap: 100px;
+}
