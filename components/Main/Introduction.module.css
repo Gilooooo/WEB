@@ -75,4 +75,6 @@
 
 .image img:hover {
   transform: scale(1.10);
+    filter: contrast(1.5);
+
 }
