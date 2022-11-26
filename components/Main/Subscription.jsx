@@ -8,9 +8,13 @@ export default function SUBSCRIPTION() {
       
       <div className={styles.container}>
         
-    
-        <div className={styles.subscription}>
-        <p><strong>FREE</strong></p>
+        <div className={styles.subscription0}>
+          <h1> JOIN NOW!! </h1>
+          <h3>1 MONTH FREE TRIAL</h3>
+          
+          </div>
+        <div className={styles.subscription1}>
+        <p>FREE</p>
         
         <a><strong>$0 / monthly</strong></a>
         <h2>Have access in basic lessons, you have 1 FREE consultation for the code and also you have 10 HOURS for advance lessons.</h2>
@@ -19,12 +23,10 @@ export default function SUBSCRIPTION() {
           
 
          </div>
-         <div className={styles.subscription0}>
-          <p> JOIN NOW!! 1 MONTH FREE TRIAL</p>
-          <h5>SCROLL DOWN &#x2193;</h5>
+         
 
           
-         <div className={styles.subscription1}>
+         <div className={styles.subscription2}>
          <p><strong>PREMIUM</strong></p>
          <a><strong>$25 / monthly</strong></a>
          <h2>Unlimited access  in  both basic and advance lessons also you have  10  consultation for  the code</h2>
@@ -37,10 +39,11 @@ export default function SUBSCRIPTION() {
          
          </div>
          
-          
+         
           </div>
     
-          </div>   
+           
+        
 
    
       
