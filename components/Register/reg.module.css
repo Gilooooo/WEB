@@ -1,5 +1,4 @@
 .container {
-    margin: 80px;
     display: flex;
     align-items: center;
     background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -52,12 +51,18 @@
 .RIGHT button{
     width: 15%;
     height: 45px;
-    margin-left: 315px;
+    margin-left: 270px;
     border-radius: 100px;
-    
     border: 2px solid black;
+}
+.RIGHT button:hover{
+    background-color: blue;
+    color: white;
 }
 .image {
     margin-bottom: 48%;
     margin-left: 15px;
+}
+.image:hover{
+    transform: scale(1.05);
 }
