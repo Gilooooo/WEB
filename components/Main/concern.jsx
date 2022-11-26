@@ -8,7 +8,7 @@ export default function concern(){
                 JUST LEAVE A MESSAGE HERE</h5>
             </div>
             <div className={styles.Input}>
-                <input type={styles.input} placeholder="message of user"></input>
+                <input type={styles.input} placeholder="message of user"></input><br/>
                 <button>SEND</button>
             </div>
         </div>
