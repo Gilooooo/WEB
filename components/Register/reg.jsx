@@ -1,8 +1,11 @@
-import styles from "./reg.module.css";
+import styles from "./Reg.module.css";
 
 export default function REG (){
     return(
         <div className={styles.container}>
+            <div className={styles.image}>
+            <img src="LOGO.png" />
+            </div>
             <div className={styles.LEFT}>
                 <h1>SIGN UP</h1>
             </div>
@@ -20,5 +23,6 @@ export default function REG (){
                 <button id="btn">SIGN UP</button>
             </div>
         </div>
+        
     )
 }
