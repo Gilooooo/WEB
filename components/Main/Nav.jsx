@@ -16,7 +16,7 @@ export default function NAV() {
         <button>Login</button>
         </a>
         </div>
-        <button>Register</button>
+        <a href="http://localhost:3000/reg"><button>Register</button></a>
         <button>Contact</button>
       </div>
     </div>
