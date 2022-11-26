@@ -1,14 +1,32 @@
 .container {
+  display: flex;
   padding: 50px;
-  background-color: #532222;
+  background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 900px;
+  font-family: Laterata;
+  gap:200px;
 }
-.message p{
+.container p{
   font-size: 48px;
+  text-align: left;
+  color: white;
 }
-.message h2{
+.container h2{
    font-size: 64px;
+   text-align: center;
+   color: #E95050;
 }
-.message h5{
+.container h5{
   font-size: 24px;
+  color: white;
+}
+.message2 {
+  margin-top: 100px;
+  width: 1500px;
+}
+.message{
+  width: 1300px;
 }
