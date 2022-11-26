@@ -2,6 +2,7 @@ import Hero from "../components/Main/Hero";
 import Introduction from "../components/Main/Introduction";
 import Services from "../components/Main/Services";
 import Nav from "../components/Main/Nav";
+import Subscription from "../components/Subscription";
 
 export default function WEB() {
   return (
@@ -10,6 +11,7 @@ export default function WEB() {
       <Hero/>
       <Introduction/>
       <Services/>
+      <subscription/>
     </div>
   );
 }
