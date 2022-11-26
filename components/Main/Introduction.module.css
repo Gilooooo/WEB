@@ -1,7 +1,5 @@
 .container  {
   padding: 5px;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
   height: 843px;
   gap: 10px;
   font-family: Literata;
@@ -10,9 +8,6 @@
   background-size: cover;
   display: flex;
   height: 110vh;
-}
-.Head{
-  align-items: top-right;
 }
 .content{
   margin: 150px;
@@ -58,8 +53,6 @@
   color: #E95050;
  
 }
-
-
 .image {
   margin-top: 5%;
   display: inline-block;
