@@ -1,0 +1,177 @@
+ .container {
+  max-width: 600px;
+
+  position: absolute;
+  align-items: center;
+  font-family: 'literata';
+  background-size: cover;
+  
+
+  
+
+ }
+ 
+
+
+.subscription{
+ 
+  display: flex;
+  gap: 30px;
+  margin-left: 150;
+  
+}
+ 
+
+
+.subscription p{
+  color: black;
+  position: absolute;
+  font-size: 30px;
+  left: 130px;
+  top: 0px;
+}
+.subscription a{
+  color: rgb(211, 91, 91);
+  position: absolute;
+  font-size: 40px;
+  right: 75px;
+  top: 150px;
+}
+
+.subscription h2{
+  color: black; 
+  overflow-wrap: break-word;
+  text-align: justify;
+  position: absolute;
+  font-size: 18px;
+  left: 50px;
+  right: 55px;
+  top: 200px;
+
+}
+  .subscription0 p{
+    color: black;
+    text-align: justify;
+    position: relative;
+    font-size: 30px;
+    left: 565px;
+    top: 1865px;
+
+}
+.subscription0 h5{
+  color: black;
+  text-align: justify;
+  position: relative;
+  font-size: 15px;
+  left: 735px;
+  top: 2460px;
+  
+
+
+}
+.subscription1 p{
+  color: black;
+  position: absolute;
+  font-size: 30px;
+  left: 105px;
+  top: 0px;
+  
+}
+.subscription1 h2{
+  color: black; 
+  text-align: justify;
+  overflow-wrap: normal;
+  position: absolute;
+  font-size: 18px;
+  left: 60px;
+  right: 60px;
+  top: 200px;
+
+}
+.subscription1 h6{
+  color: rgb(68, 66, 66); 
+  text-align: justify;
+  overflow-wrap: normal;
+  position: relative;
+  font-size: 13px;
+  left: 130px;
+  top: 445px;
+  
+
+
+
+}
+.subscription1 button{
+  position: absolute;
+  width: 180px;
+  height: 65px;
+  border: none;
+  border-radius: 100px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: #471313;
+  top: 250px;
+  right: 25px;
+
+
+}
+
+.subscription1 button:hover{
+    cursor: pointer;
+    background: rgb(109, 60, 60);
+
+}
+.subscription1 a{
+  color: rgb(211, 91, 91);
+  position: absolute;
+  font-size: 40px;
+  right: 65px;
+  top: 150px;
+
+}
+.subscription button{
+  position: absolute;
+  width: 180px;
+  height: 65px;
+  border: none;
+  border-radius: 100px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: #471313;
+  top: 255px;
+  right: 20px;
+
+}
+  .subscription button:hover{
+    cursor: pointer;
+    background: rgb(109, 60, 60);
+}
+
+
+
+  .subscription1 {
+      position: absolute;
+      width: 356.75px;
+      height: 500px;
+      left: 850px;
+      top: 1950px;
+      
+
+      background: #9DF034;
+      border-radius: 35px;
+  }
+
+  .subscription {
+      position: absolute;
+      width: 356.75px;
+      height: 500px;
+      left: 380px;
+      top: 1950px;
+    
+      
+      background: #7ED67D;
+      border-radius: 35px;
+
+  }
+
+  
