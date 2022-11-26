@@ -1,4 +1,4 @@
-import REG from "../components/Register/reg";
+import Reg from "../components/Register/reg";
 
 export default function register(){
     return(
