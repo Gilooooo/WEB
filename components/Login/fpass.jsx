@@ -7,6 +7,7 @@ import { useState } from "react";
 export default function Fpass() {
 
     const [message,SetMessage] = useState('')
+    const [email,SetEmail] = useState('')
     const trythis = true;
     const check = event => {
         event.currentTarget.disabled=true;
@@ -62,7 +63,7 @@ export default function Fpass() {
         
         <div className={styles.pass}>
         <h2>EMAIL</h2>
-        <input type="text" required/>
+        <input type="text" id="email" name="email" value={email} onChange={event => SetEmail(event.target.value)}/>
         <button onClick={sendemail}>CODE</button>
 
         <h2>CODE</h2>
