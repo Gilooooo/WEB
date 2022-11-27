@@ -1,20 +1,32 @@
 import styles from "./fpass.module.css";
 import swal from "sweetalert";
 import Swal from "sweetalert2";
+import { useState } from "react";
 
 
 export default function Fpass() {
 
-   const Clickme =() => {
+    const [message,SetMessage] = useState('')
+    const trythis = true;
+    const check = event => {
+        event.currentTarget.disabled=true;
+        console.log(clickeeeeeeeeeeeeed
+            )
+    }
+
+   const Clickme = () => {
+
         Swal.fire({
             icon:"success",
             title: "SUCCESSFUL!",
             text:"Credentials have been updated",
             showConfirmButton: true
+        }).then(function(){
+            window.location = "http://localhost:3000/login";
         });
     }
    
-        const sendemail =() => {
+    const sendemail =() => {
             swal({
                 icon:"success",
                 title: "SUCCESSFUL!",
@@ -50,22 +62,22 @@ export default function Fpass() {
         
         <div className={styles.pass}>
         <h2>EMAIL</h2>
-        <input type="email" />
+        <input type="text" required/>
         <button onClick={sendemail}>CODE</button>
 
         <h2>CODE</h2>
-        <input type="CODE"/>
+        <input type="number" required/>
         <button onClick={sendcode}>CODE</button>
        
         </div>
         <div className={styles.newpass}>
         <h2>NEW PASSWORD</h2>
-        <input type="new pass"/>
+        <input type="new pass" required/>
         <h2>CONFIRM PASSWORD</h2>\
-        <input type="confirm pass"/>
+        <input type="text" id="message" name="message" value={message} onChange={event => SetMessage(event.target.value)}/>
         <p></p>
     
-        <button onClick={Clickme}>CONFIRM</button>
+        <button disabled={!message} onClick={Clickme}>CONFIRM</button>
         </div>
         
        
