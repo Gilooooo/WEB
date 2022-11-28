@@ -1,105 +1,12 @@
-.body{
-    color: cornsilk;
-}
-
-.image{
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 1200px;
-    transition: 400ms;
-    align-items: left;
-    
-}
-.image button {
-    background-color:inherit;
-    border: none;
-    
-
-}
-.image:hover{
-    transform: scale(1.50);
-}
-.container {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Literata';
-    font-style: normal;
-    background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    height: 100vh;
-
+.google button {
+    display: inline-block;;
+   background-color: transparent;
+   border:none;
+   margin: 15px;
    
-}
-
-.container input{
-    width: 396px;
-    height: 46px;
-    border-radius: 15px;
-    background-color:  #D5CCD9;
-    border: 1px solid#000000;
-    font-style: arial;
-    font-weight: bold;
-    text-align: center;
 
 }
 
-.credit h3{
-    font-size: 15px;
-    text-align: left;
-    margin-left: 450px;
+.google button:hover {
+    transform: scale(1.5);
 }
-
-.credit button{
-    font-weight: bold;
-    margin-top: 25px;
-    width: 100px;
-    height: 44px;
-    background: #D5CCD9;
-    border: 1px solid #000000;
-    border-radius: 20px;
-    display: block;
-    margin-left: 588px;
-    text-align: center;
-}
-
-.credit button:hover{
-    background-color: rgb(234, 231, 57);
-    background-image:linear-gradient(yellow,orange);
-}
-.credit h1{
-    margin-bottom: 95px;
-}
-
-.TEXT   {
-    margin-top: 50px;
-    display: flex;
-    gap: 32px;
-    margin-left: 490px;
-    
-
-}
-
-.TEXT button {
-    color: rgb(255, 255, 255);
-    border: none;
-    background-color: transparent;
-
-    
-}
-
-.TEXT button:hover {
-    color: yellow;
-    
-}
-.google{
-    background-color: transparent;
-}
-
-
-
-
-
-
