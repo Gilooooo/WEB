@@ -8,12 +8,9 @@ export default function Fpass() {
 
     const [message,SetMessage] = useState('')
     const [email,SetEmail] = useState('')
-    const trythis = true;
-    const check = event => {
-        event.currentTarget.disabled=true;
-        console.log(clickeeeeeeeeeeeeed
-            )
-    }
+    const [number,SetNumber] = useState('')
+    const [npass,SetNpass] = useState('')
+    
 
    const Clickme = () => {
 
@@ -67,25 +64,22 @@ export default function Fpass() {
         <button onClick={sendemail}>CODE</button>
 
         <h2>CODE</h2>
-        <input type="number" required/>
+        <input type="number" id="number" name="number" value={number} onChange={event => SetNumber(event.target.value)}/>
         <button onClick={sendcode}>CODE</button>
        
         </div>
         <div className={styles.newpass}>
         <h2>NEW PASSWORD</h2>
-        <input type="new pass" required/>
+        <input type="text" id="npass" name="npass" value={npass} onChange={event => SetNpass(event.target.value)}/>
         <h2>CONFIRM PASSWORD</h2>\
         <input type="text" id="message" name="message" value={message} onChange={event => SetMessage(event.target.value)}/>
         <p></p>
     
-        <button disabled={!message} onClick={Clickme}>CONFIRM</button>
+        <button disabled={!message || !email || !number || !npass} onClick={Clickme}>CONFIRM</button>
         </div>
         
        
-       
-       
-        
-       
+
 
         </div>
        
