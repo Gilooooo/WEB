@@ -4,6 +4,7 @@ import Services from "../components/Main/Services";
 import Nav from "../components/Main/Nav";
 import Subscription from "../components/Main/Subscription";
 import Concern from "../components/Main/concern";
+import Footer from "../components/Main/footer";
 
 export default function WEB() {
   return (
@@ -14,6 +15,7 @@ export default function WEB() {
       <Services/>
       <Subscription/>
       <Concern/>
+      <Footer/>
     </div>
   );
 }
