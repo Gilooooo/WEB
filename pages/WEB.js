@@ -5,15 +5,18 @@ import styles from "../components/Main/Nav.module.css";
 import Subscription from "../components/Main/Subscription";
 import Concern from "../components/Main/concern";
 import Footer from "../components/Main/footer";
-import { useRef } from "react";
+import  { useRef } from "react";
+
 
 
 export default function WEB() {
   
+ 
   const ref = useRef(null);
   const handleClick = () => {
-    ref.current?.scrollIntoView({behavior:'smooth'})
-  };
+    ref.current.scrollIntoView({behavior:'smooth'})
+  }
+  
 
 
   
