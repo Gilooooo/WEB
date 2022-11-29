@@ -6,21 +6,18 @@ import Subscription from "../components/Main/Subscription";
 import Concern from "../components/Main/concern";
 import Footer from "../components/Main/footer";
 import  { useRef } from "react";
-import {$username} from "../components/Login/login"
 
 
 
-export default function WEB() {
+
+
+
+export default function WEB2() {
   
- 
   const ref = useRef(null);
   const handleClick = () => {
     ref.current.scrollIntoView({behavior:'smooth'})
   }
-  
-
-
-  
   
   return (
 
@@ -35,8 +32,9 @@ export default function WEB() {
         </div>
       <div className={styles.navbarActions}>
         <div className={styles.login}>
-    
-        <div>{$username}</div>
+        <div>
+            <img src="github.png"></img>
+        </div>
         </div>
         <a href="http://localhost:3000/reg"><button>Register</button></a>
          <button onClick={handleClick}>Contact</button>
