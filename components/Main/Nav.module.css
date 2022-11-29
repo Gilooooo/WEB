@@ -20,6 +20,7 @@
   font-size: 25px;
   color: white;
   background-color: #E95050;
+  
 }
 
 .navbarActions button:hover{
@@ -35,4 +36,16 @@
   border: none;
   
 
+}
+
+.login img {
+  position: absolute;
+  width: 65px;
+  top: 1px;
+  left:890px;
+  
+}
+
+.login img:hover {
+  transform: scale(1.50);
 }
