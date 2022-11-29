@@ -11,11 +11,19 @@ export default function LOGIN() {
         Swal.fire({
             icon:"info",
             title: "Welcome User",
-            text:"Credentials Correct",
-            showConfirmButton: true
-        }).then(function(){
-            window.location = "http://localhost:3000/WEB";
+            showCancelButton:true,
+            text:(`${username}`),
+            confirmButtonText:"Confirm",
+            closeOnConfirm: false,
+            closeOnCancel: false
+           
+
+        }).then((result) => {
+            if (result.isConfirmed) {window.location = "http://localhost:3000/WEB2";}
+
         });
+
+        
     }
 
 
