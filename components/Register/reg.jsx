@@ -12,11 +12,19 @@ export default function REG (){
 
         Swal.fire({
             icon:"success",
-            title: "SUCCESSFUL!",
-            text:"Account Created!",
-            showConfirmButton: true
+            iconColor:"#31f731",
+            title: "CONGRATULATIONS!",
+            text:"Your Account is successfully registered to EOS",
+            showConfirmButton: true,
+            confirmButtonText: "PROCEED",
+            confirmButtonColor: "green",
+            background: "#1b2e1b",
+            border:"neon green",
+            color:"white",
+            padding:"5px",
+            width:375
         }).then(function(){
-            window.location = "http://localhost:3000/login";
+           window.location = "http://localhost:3000/login"
         });
     }
     
@@ -35,9 +43,9 @@ export default function REG (){
                 <h6>Email</h6>
                 <input type="text" id="email" name="email" value={email} onChange={event => SetEmail(event.target.value)}/>
                 <h6>Password</h6>
-                <input type="text" id="pass" name="pass" value={pass} onChange={event => SetPass(event.target.value)}/>
+                <input type="password" id="pass" name="pass" value={pass} onChange={event => SetPass(event.target.value)}/>
                 <h6>Confirm Password</h6>
-                <input type="text" id="cpass" name="cpass" value={cpass} onChange={event => SetCpass(event.target.value)}/>
+                <input type="password" id="cpass" name="cpass" value={cpass} onChange={event => SetCpass(event.target.value)}/>
                 <br></br>
                 <button id="btn" disabled={!username || !email || !pass || !cpass} onClick={Clickme}>SIGN UP</button>
             </div>
