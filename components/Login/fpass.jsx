@@ -1,5 +1,4 @@
 import styles from "./fpass.module.css";
-import swal from "sweetalert";
 import Swal from "sweetalert2";
 import { useState } from "react";
 
@@ -16,30 +15,56 @@ export default function Fpass() {
 
         Swal.fire({
             icon:"success",
+            iconColor:"#31f731",
             title: "SUCCESSFUL!",
             text:"Credentials have been updated",
             showConfirmButton: true
+            ,
+            confirmButtonText:"OK",
+            confirmButtonColor: "green",
+            background: "#4d614d",
+            border:"neon green",
+            color:"white",
+            padding:"5px",
+            width:300
+
         }).then(function(){
             window.location = "http://localhost:3000/login";
         });
     }
    
     const sendemail =() => {
-            swal({
+            Swal.fire({
                 icon:"success",
+                iconColor:"#31f731",
                 title: "SUCCESSFUL!",
                 text:"Code sent on email",
-                showConfirmButton: true
+                showConfirmButton: true,
+                confirmButtonText:"OK",
+                confirmButtonColor: "green",
+            background: "#4d614d",
+            border:"neon green",
+            color:"white",
+            padding:"5px",
+            width:300
         });
         
 
    }
     const sendcode =() => {
-    swal({
+    Swal.fire({
         icon:"success",
+        iconColor:"#31f731",
         title: "SUCCESSFUL!",
         text:"Code Correct",
-        showConfirmButton: true
+        showConfirmButton: true,
+        confirmButtonText:"OK",
+            confirmButtonColor: "green",
+            background: "#4d614d",
+            border:"neon green",
+            color:"white",
+            padding:"5px",
+            width:300
 });
 
 
@@ -70,9 +95,9 @@ export default function Fpass() {
         </div>
         <div className={styles.newpass}>
         <h2>NEW PASSWORD</h2>
-        <input type="text" id="npass" name="npass" value={npass} onChange={event => SetNpass(event.target.value)}/>
+        <input type="password" id="npass" name="npass" value={npass} onChange={event => SetNpass(event.target.value)}/>
         <h2>CONFIRM PASSWORD</h2>\
-        <input type="text" id="message" name="message" value={message} onChange={event => SetMessage(event.target.value)}/>
+        <input type="password" id="message" name="message" value={message} onChange={event => SetMessage(event.target.value)}/>
         <p></p>
     
         <button disabled={!message || !email || !number || !npass} onClick={Clickme}>CONFIRM</button>
