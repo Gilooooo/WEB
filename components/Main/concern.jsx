@@ -1,14 +1,21 @@
 import styles from "./concern.module.css";
-import swal from "sweetalert";
+import Swal from "sweetalert2";
 
 export default function Concern(){
     
     const sent =() => {
-        swal({
+        Swal.fire({
             icon:"success",
+            iconColor:"#31f731",
             title: "SUCCESSFUL!",
             text:"Your Concern have been sent to EOS",
-            showConfirmButton: true
+            showConfirmButton: true,
+            confirmButtonColor: "green",
+            background: "#4d614d",
+            border:"neon green",
+            color:"white",
+            padding:"5px",
+            width:300
     });
 }
     
