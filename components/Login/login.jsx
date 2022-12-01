@@ -20,7 +20,7 @@ export default function LOGIN() {
             closeOnCancel: false,
             confirmButtonColor: "green",
             cancelButtonColor: "red",
-            background: "#4d614d",
+            background: "#1b2e1b",
             border:"neon green",
             color:"white",
             padding:"5px",
