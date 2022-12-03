@@ -1,10 +1,8 @@
-import Login from "../components/Login/login";
-
-export default function login() {
-    return (
-
-      <div>
-        <Login/>
-      </div>
-    );
-  }
+import Data from "../components/Login/data";
+export default function (){
+  return(
+    <div>
+        <Data/>
+    </div>
+  )
+}
