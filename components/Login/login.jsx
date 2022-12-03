@@ -1,10 +1,14 @@
 import styles from "./login.module.css";
-import { useState } from "react";
+import React, { useState } from "react";
 import Swal from "sweetalert2";
-import WEB2 from "../../pages/WEB2";
 
+export default function LOGIN({LogiN, error}) {
+    const [details, setDetails] = useState({usernamE:""});
+    const submitHandler = e => {
+        e.preventDefault();
+        LogiN(details);
+    }
 
-export default function LOGIN() {
     const [username,SetUsername] = useState('')
     const [password,SetPassword] = useState('')
    
@@ -30,7 +34,7 @@ export default function LOGIN() {
         }).then((result) => {
             if (result.isConfirmed) {
                 
-                window.location = "http://localhost:3000/WEB2";} 
+                window.location = "http://localhost:3000";} 
             
             
             
@@ -57,19 +61,26 @@ export default function LOGIN() {
         </div>
         <div className={styles.credit}>
         <h1> </h1>
-        
-        <h3> EMAIL / USERNAME</h3>
-        <input type="text" id="username" name="username" value={username} onChange={event => SetUsername(event.target.value)}/>
-        <h3>PASSWORD</h3>
-        <input type="password" id="password" name="password" value={password} onChange={event => SetPassword(event.target.value)}/>
-        <button disabled={!username || !password} onClick={Confirm} >LOGIN</button>
-        
+        <form onSubmit={submitHandler}>
+            <div>
+                <h3> EMAIL / USERNAME</h3>
+                <input type="text" name="usernamE" onChange={e => setDetails({...details, usernamE: e.target.value})} value={details.usernamE}></input>
+            </div>
+            <div>
+                <h3>PASSWORD</h3>
+                <input type="password" id="password" name="password" value={password} onChange={event => SetPassword(event.target.value)}/>
+            </div>
+            <div>
+                <button type="submit" value="LOGIN" disabled={!details.usernamE||!password} onClick={Confirm}></button>
+            </div>     
+        </form>    
+  
         </div>
     
         <div className ={styles.TEXT}>
             <a href="http://localhost:3000/reg">
-        <button>CREATE ACCOUNT</button>
-        </a>
+            <button>CREATE ACCOUNT</button>
+            </a>
         <a href="http://localhost:3000/fpass"> 
         <button>FORGOT PASSWORD</button>
         </a>
