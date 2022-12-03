@@ -1,5 +1,7 @@
 import styles from "./concern.module.css";
 import Swal from "sweetalert2";
+import emailjs from "@emailjs/browser";
+import React, {useRef} from "react";
 
 export default function Concern(){
     
@@ -18,7 +20,23 @@ export default function Concern(){
             width:300
     });
 }
-    
+
+
+    const form = useRef();
+    const sendEmail = (e)=>{
+        e.preventDefault();
+        emailjs.sendForm('service_sokdorp', 'template_1hnzbco', form.current, 'A8ARn0Ya1N4dfGySM')
+        .then(
+            (result) =>{
+                console.log(result.text);
+            },
+            (error) =>{
+                console.log(error.text);
+            }
+            
+        );
+    }
+        
     return(
         
         <div  className={styles.container}>
@@ -26,10 +44,13 @@ export default function Concern(){
                 <h5>IF YOU HAVE ANY CONCERNS, 
                     JUST LEAVE A MESSAGE HERE</h5>
             </div>
-            <div className={styles.Input}>
-                <input type={styles.input} ></input><br/>
-                <button onClick={sent}>SEND</button>
+            <form ref={form} onSubmit={sendEmail} >
+                <div className={styles.Input}>
+                <input type={styles.input} name="message"></input><br/>
+                <button onClick={sent} value="Send">SEND</button>
             </div>
+            </form>
+            
         </div>
     )
 }
