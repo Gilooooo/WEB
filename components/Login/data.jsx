@@ -52,7 +52,11 @@ export default function data(){
             width:300
     });
     }
-
+    const ref = useRef(null);
+    const handleClick = () => {
+      ref.current.scrollIntoView({behavior:'smooth'})
+    }
+    
     return (
         <div>
             <div className="data">
@@ -71,7 +75,7 @@ export default function data(){
                                     <span>{user.usernamE}</span>
                                 </div>
                                     <button onClick={Logout}>Logout</button>
-                                    <button>Contact</button>
+                                    <button onClick={handleClick}>Contact</button>
                                 </div>
                             </div>
                                 <div className={styles1.container}>
@@ -141,7 +145,7 @@ export default function data(){
                                 <h6>*PAYPAL ONLY</h6> 
                             </div>
                         </div>
-                        <div  className={styles5.container}>
+                        <div  ref={ref} className={styles5.container}>
                             <div >
                                 <h5>IF YOU HAVE ANY CONCERNS, 
                                     JUST LEAVE A MESSAGE HERE</h5>
@@ -155,6 +159,9 @@ export default function data(){
                         </div>
                         <div className={styles6.container}>
                             <div className={styles6.message}>
+                                <p className={styles6.quote}>“By learning programming it is not only the knowledge that you gain, but it also improves your 
+                                    problem soving and logical ability, so it help us to learn step by step and figure stuff out.”
+                                    - EOS TEAM</p>
                                 <p>WE ARE EXCITED TO TEACH AND COLLABORATE WITH YOU</p>
                             </div>
                             <div className={styles6.links}>
