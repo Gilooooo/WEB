@@ -59,7 +59,7 @@ export default function LOGIN({LogiN, error}) {
                 <input type="password" id="password" name="password" value={password} onChange={event => SetPassword(event.target.value)}/>
             </div>
             <div>
-                <button type="submit" value="LOGIN"  onClick={Confirm} disabled={!details.usernamE||!password} ></button>
+                <button type="submit" value="LOGIN"  onClick={Confirm} disabled={!details.usernamE||!password} > LOGIN </button>
             </div>     
         </form>    
   
