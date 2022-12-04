@@ -58,12 +58,13 @@
     margin-top: 25px;
     width: 100px;
     height: 44px;
-    background: #D5CCD9;
-    border: 1px solid #000000;
+    background: #323132;
+    border: 1px solid #ffffff;
     border-radius: 20px;
     display: block;
     margin-left: 588px;
     text-align: center;
+    
 }
 
 .credit button:hover{
@@ -120,4 +121,5 @@
 .google button:hover {
     transform: scale(1.5);
 }
+
 
