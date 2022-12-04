@@ -5,7 +5,7 @@ export default function OurMission() {
     <div className={styles.container}> 
       <div className={styles.content}>
         <p>What is EO?</p>
-        <h1>Web Design</h1>
+        <h1>Web Developer</h1>
         <h5>EOs  provide  high quality of various designs made 
         on Figma  and ensuring ease of use and simplicity for your audience.
         </h5>

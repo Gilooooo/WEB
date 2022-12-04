@@ -23,15 +23,15 @@
   background-color: #E95050;
   
 }
-.navbarActions .login{
-  width: 120px;
-  height: 40px;
-  border: none;
-  border-radius: 100px;
+.navbarActions span{
+
+  background-color: rgb(78, 76, 76);
+  border:none;
+  color:white;
+  padding:3px 3px 5px 3px;
   font-size: 25px;
-  color: white;
-  text-align: center;
-  background-color: #E95050;
+  border-radius: 100px;
+  
 }
 
 .navbarActions button:hover{

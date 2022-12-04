@@ -2,7 +2,6 @@
     color: cornsilk;
 }
 
-
 .image{
     margin-top: 10px;
     margin-left: 15px;
@@ -58,13 +57,12 @@
     margin-top: 25px;
     width: 100px;
     height: 44px;
-    background: #323132;
-    border: 1px solid #ffffff;
+    background: #D5CCD9;
+    border: 1px solid #000000;
     border-radius: 20px;
     display: block;
-    margin-left: 598px;
+    margin-left: 588px;
     text-align: center;
-    
 }
 
 .credit button:hover{
@@ -121,5 +119,4 @@
 .google button:hover {
     transform: scale(1.5);
 }
-
 

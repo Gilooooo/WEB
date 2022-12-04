@@ -24,6 +24,7 @@ export default function WEB() {
   return (
 
     <div>
+      <title>MAIN</title>
       <div className={styles.container}>
       <div className={styles.image}>
       <a href="http://localhost:3000/WEB">
