@@ -26,15 +26,6 @@ export default function Concern(){
     const sendEmail = (e)=>{
         e.preventDefault();
         emailjs.sendForm('service_sokdorp', 'template_1hnzbco', form.current, 'A8ARn0Ya1N4dfGySM')
-        .then(
-            (result) =>{
-                console.log(result.text);
-            },
-            (error) =>{
-                console.log(error.text);
-            }
-            
-        );
     }
         
     return(
