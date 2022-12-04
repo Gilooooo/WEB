@@ -1,7 +1,7 @@
 export default function (){
   return(
     <div>
-        Go to http://localhost:3000/WEB
+        <a href="http://localhost:3000/WEB">Go to http://localhost:3000/WEB<a>
     </div>
   )
 }
