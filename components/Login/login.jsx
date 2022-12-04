@@ -9,7 +9,6 @@ export default function LOGIN({LogiN, error}) {
         LogiN(details);
     }
 
-    const [username,SetUsername] = useState('')
     const [password,SetPassword] = useState('')
    
     const Confirm = () => {
@@ -17,13 +16,9 @@ export default function LOGIN({LogiN, error}) {
         Swal.fire({
             icon: "success",
             iconColor:"#31f731",
-            title: "Welcome to  EOS!  " + `${username}` ,
-            showCancelButton:true,
-            confirmButtonText:"CONFIRM",
-            closeOnConfirm: false,
-            closeOnCancel: false,
+            title: "Welcome to  EOS!  " + details.usernamE ,
+            confirmButtonText:"YOUR WELCOME EOS",
             confirmButtonColor: "green",
-            cancelButtonColor: "red",
             background: "#1b2e1b",
             border:"neon green",
             color:"white",
@@ -31,14 +26,7 @@ export default function LOGIN({LogiN, error}) {
             width:400
            
 
-        }).then((result) => {
-            if (result.isConfirmed) {
-                
-                window.location = "http://localhost:3000";} 
-            
-            
-            
-        });
+        })
 
         
     }
@@ -71,7 +59,7 @@ export default function LOGIN({LogiN, error}) {
                 <input type="password" id="password" name="password" value={password} onChange={event => SetPassword(event.target.value)}/>
             </div>
             <div>
-                <button type="submit" value="LOGIN" disabled={!details.usernamE||!password} onClick={Confirm}></button>
+                <button type="submit" value="LOGIN"  onClick={Confirm} disabled={!details.usernamE||!password} ></button>
             </div>     
         </form>    
   
