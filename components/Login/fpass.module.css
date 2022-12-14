@@ -1,7 +1,5 @@
-
-
 .container {
-    
+    padding-top: 10px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Literata';
@@ -11,7 +9,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: inline-block;
     height: 100vh;
     
     
@@ -70,6 +67,7 @@
     border: 1px solid#000000;
     font-style: arial;
     font-weight: bold;
+    text-align: inherit;
       
 }
 
@@ -98,9 +96,7 @@
     background: #D5CCD9;
     border: 1px solid #000000;
     border-radius: 20px;
-    display: block;
-    margin-left: 565px;
-    text-align: center;
+    text-align: inherit;
     margin-bottom: 0px;
 }
 
