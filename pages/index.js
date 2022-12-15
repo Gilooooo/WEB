@@ -1,9 +1,10 @@
-import Data from "../components/Login/data";
-export default function (){
-  return(
-    <div>
-      <title>LOGIN</title>
-        <Data/>
-    </div>
-  )
+import Reg from "../components/Register/reg";
+
+export default function register(){
+    return(     
+        <div>
+            <title>REGISTER</title>
+            <Reg/>
+        </div>
+    );
 }
