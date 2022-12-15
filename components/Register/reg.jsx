@@ -24,14 +24,14 @@ export default function REG (){
             padding:"5px",
             width:375
         }).then(function(){
-           window.location = "http://localhost:3000/login"
+           window.location = "/login"
         });
     }
     
     return(
         <div className={styles.container}>
             <div className={styles.image}>
-            <a type="button" href="http://localhost:3000/WEB"><img src="LOGO.png" /></a>
+            <a type="button" href="https://eos-website.vercel.app"><img src="LOGO.png" /></a>
             </div>
             <div className={styles.LEFT}>
                 <h1>SIGN UP</h1>

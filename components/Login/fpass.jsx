@@ -29,7 +29,7 @@ export default function Fpass() {
             width:300
 
         }).then(function(){
-            window.location = "http://localhost:3000/login";
+            window.location = "https://eos-website.vercel.app/login";
         });
     }
    
@@ -76,7 +76,7 @@ export default function Fpass() {
         
         <div className={styles.container}>
         <div className={styles.image}>
-        <a href="http://localhost:3000/WEB">
+        <a href="https://web-app-ruby-two.vercel.app">
         <button>
         <img src = "LOGO.png"></img>
         </button>

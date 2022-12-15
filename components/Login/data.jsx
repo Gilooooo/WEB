@@ -168,7 +168,7 @@ export default function data(){
                                 <a href="https://github.com/Gilooooo/WEB"><img src="Github.png" /></a>        
                                 <a href="https://www.figma.com/file/jyjs8RHNT26QugKLYUZNrg/WEB-APP?node-id=0%3A1&t=MUTLJiAVwZwKA2N4-0"><img src="Figma.png" /></a>
                                 <a href=""><img src="fb.png"/></a>
-                                <a href="http://localhost:3000/WEB"><img src="logolink.png" /></a>        
+                                <a href=""><img src="logolink.png" /></a>        
                             </div>
                         </div>
                     </div>

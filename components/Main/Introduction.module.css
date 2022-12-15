@@ -37,7 +37,7 @@
 }
 .footer{
   position: absolute;
-  margin-top: 540px;
+  margin-top: 600px;
   margin-left: 165px;
   font-size: 25px;
   color: white;
@@ -62,13 +62,13 @@
 }
 .image img{
   
-  width: 120x;
-    height: 150px;
+  width: 140x;
+    height: 160px;
     border: 2px solid black;
     border-radius: 13px;
     box-shadow: 4px 4px 4px 4px black;
     margin-top: 35px;
-    margin-right: 10px;
+    margin-right: 20px;
     transition: 400ms;
 
 }

@@ -27,3 +27,6 @@
     justify-content: center;
     gap: 100px;
 }
+.links img:hover {
+    transform: scale(1.25);   
+}
