@@ -1,10 +1,12 @@
-import Reg from "../components/Register/reg";
+import Fpass from "../components/Login/fpass";
 
-export default function register(){
-    return(     
-        <div>
-            <title>REGISTER</title>
-            <Reg/>
-        </div>
+export default function fpass() {
+    return (
+      
+      <div>
+        <Fpass/>
+        
+      </div>
+      
     );
-}
+  }
