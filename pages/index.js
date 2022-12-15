@@ -23,7 +23,7 @@ export default function WEB() {
       <title>MAIN</title>
       <div className={styles.container}>
       <div className={styles.image}>
-      <a href="http://localhost:3000/WEB">
+      <a href="https://eos-website-theta.vercel.app">
         <button>
         <img src = "LOGO.png"></img>
         </button>
@@ -31,11 +31,11 @@ export default function WEB() {
         </div>
       <div className={styles.navbarActions}>
         <div className={styles.login}>
-        <a href="http://localhost:3000/login">
+        <a href="https://eos-website-theta.vercel.app/login">
         <button>Login</button>
         </a>
         </div>
-        <a href="http://localhost:3000/reg"><button>Register</button></a>
+        <a href="https://eos-website-theta.vercel.app/reg"><button>Register</button></a>
          <button onClick={handleClick}>Contact</button>
       </div>
     </div>     

@@ -4,7 +4,7 @@ export default function NAV() {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-      <a href="https://eos-website.vercel.app/">
+      <a href="https://eos-website-theta.vercel.app">
         <button>
         <img src = "LOGO.png"></img>
         </button>
@@ -12,11 +12,11 @@ export default function NAV() {
         </div>
       <div className={styles.navbarActions}>
         <div className={styles.login}>
-        <a href="https://eos-website.vercel.app/login">
+        <a href="https://eos-website-theta.vercel.app/login">
         <button>Login</button>
         </a>
         </div>
-        <a href="https://eos-website.vercel.app/reg"><button>Register</button></a>
+        <a href="https://eos-website-theta.vercel.app/reg"><button>Register</button></a>
         <button>Contact</button>
       </div>
     </div>

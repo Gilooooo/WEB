@@ -19,7 +19,7 @@ export default function SUBSCRIPTION() {
         <a><strong>$0 / monthly</strong></a>
         <h2>Have access in basic lessons, you have 1 FREE consultation for the code and also you have 10 HOURS for advance lessons.</h2>
 
-        <a type= "button" href="http://localhost:3000/reg" ><button>REGISTER NOW</button></a>
+        <a type= "button" href="https://eos-website-theta.vercel.app/reg" ><button>REGISTER NOW</button></a>
           
 
          </div>
